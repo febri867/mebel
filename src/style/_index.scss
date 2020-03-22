@@ -1,0 +1,35 @@
+@import './_init.scss';
+
+body {
+  font-family: 'Ubuntu-Bold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  max-width: fit-content;
+  overflow-x: hidden;
+  background-color: #938e94 !important;
+}
+
+.header{
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+
+.full-width{
+  width: 100vw;
+}
+
+.brand{
+  height: 100%;
+  width: fit-content;
+  display: inline-block;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box-container {
+  position: relative;
+  width: 100vw;
+  white-space: nowrap;
+}
